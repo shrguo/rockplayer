@@ -34,6 +34,7 @@ import android.util.Log;
 public class AlbumChangedIntentReceiver	extends BroadcastReceiver{
 	@Override
 	public void onReceive(Context context, Intent intent) {
+		// 测试push code是的发生的发生的风格
 		Log.i("ALBUMINTENT", "albumChanged");
 		RockPlayer filex =((RockPlayer) context);
 		try {
